@@ -1,0 +1,54 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.circle {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box {
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+p{
+    color: white;
+}
